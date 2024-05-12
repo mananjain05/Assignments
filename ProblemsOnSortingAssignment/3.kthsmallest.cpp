@@ -8,6 +8,7 @@ int main(){
         cin>>arr[i];
     }
     int k;
+    cout<<"enter key:";
     cin>>k;
     sort(arr.begin(),arr.end());
     cout<<arr[k-1];
